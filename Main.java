@@ -20,7 +20,14 @@ public class Main implements Directions {
      * Put your main Jeroo code here.
      */
     public static void runJerooCode() {
-     
+{
+   // instantiate the Jeroo (i.e. create it) 
+   // and then make a remote control pointing to it called kim
+   Jeroo kim = new Jeroo(0, 0, EAST, 5);
+   kim.hop();
+   kim.plant();
+   kim.hop();
+}    
     }
 
 }
